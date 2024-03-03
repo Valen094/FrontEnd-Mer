@@ -1,0 +1,112 @@
+.button-toEdit {
+    position: absolute;
+    left: 70%;
+    top: 130px;
+}
+
+.button-toEdit button {
+    padding: 8px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.MarketProfile h2,
+.reviews-container h2 {
+    color: #6B4522;
+}
+
+.reviews-container h2 {
+    margin: 0;
+}
+
+.container-marketProfile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MarketProfile {
+    margin-top: 140px;
+}
+
+.description-market {
+    width: 80%;
+    background-color: #EEE9B4;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    width: 50%;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.comments {
+    position: relative;
+    left: 40%;
+    margin: 0;
+    font-size: small;
+    color: rgb(98, 98, 98);
+}
+
+.reviews-container {
+    width: 58%;
+    margin-bottom: 50px;
+}
+
+.Send-comment input {
+    padding: 9px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: rgb(85, 85, 85) 1px solid;
+    width: 270px;
+    margin-right: 15px;
+}
+
+.Send-comment button {
+    padding: 7px 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: #A1BB23;
+    color: #ffff;
+}
+
+.floating-form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* Asegura que esté encima de otros elementos */
+  }
+  
+
+  .floating-form {
+    position: relative;
+  background-color: #F4F2DC;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    top: 30%;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
